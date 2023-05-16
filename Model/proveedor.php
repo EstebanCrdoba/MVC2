@@ -54,7 +54,7 @@ class proveedor
         die($e->getMessage());
         }
     }
-    //Este método elimina la tupla proveedor dado un nit.
+    //Este método elimina la tabla proveedor dado un nit.
     public function Eliminar($nit)
         {
         try
