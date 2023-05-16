@@ -23,7 +23,7 @@
                 <a href="?c=proveedor&a=Crud&nit=<?php echo $r->nit; ?>">Editar</a>
             </td>
             <td>
-                <a onclick="javascript:return confirm(‘¿Seguro de eliminar este registro?’);" href="?c=proveedor&a=Eliminar&nit=<?php echo $r->nit; ?>">Eliminar</a>
+                <a onclick="javascript:return confirm('¿Seguro de eliminar este registro?');" href="?c=proveedor&a=Eliminar&nit=<?php echo $r->nit; ?>">Eliminar</a>
             </td>
         </tr>
     <?php endforeach; ?>
